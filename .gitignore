@@ -165,3 +165,6 @@ tasks/
 wandb/
 data/
 logs/
+# large artifacts (TLAT_bd bridge)
+models/
+*.orig_backup_*

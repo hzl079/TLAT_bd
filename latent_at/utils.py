@@ -19,7 +19,14 @@ def log_1_minus_p_loss(logits, labels, threshold=-5.0):
     # Create a mask for the labels, so we can zero out the logits of true labels
     mask = torch.zeros_like(logits).scatter_(-1, gather_labels.unsqueeze(-1), 1.0)
     # Zero out the logits of true labels
-    masked_logits = logits * (1 - mask) + mask * (-1e10)  # Large negative value to approximate zero when exponentiated
+    # 原HarmBench代码用固定常量 -1e10 作为掩码值,在 bf16 精度下
+    # -1e10 超出 bf16 可表示范围会变成 -inf,导致后续 logsumexp
+    # 出现 NaN(尤其在训练若干步后logits分布变化更大时更容易触发)。
+    # 这里改为该 dtype 下的最小有限值(bf16下约-3.39e38,仍然远小于
+    # 正常logits数值,足以让对应位置在exp后趋近于0),不改变该loss
+    # 的定义和作用,只修复数值稳定性。
+    neg_large = torch.finfo(logits.dtype).min
+    masked_logits = logits * (1 - mask) + mask * neg_large
     # Compute the log(sum(exp(logits excluding true label))) for each token position
     log_sum_exp_without_true_label = torch.logsumexp(masked_logits, dim=-1)
     # Compute log(1 - P(label)) for each token position

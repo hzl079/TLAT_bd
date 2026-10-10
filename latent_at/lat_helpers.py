@@ -20,7 +20,13 @@ def compute_toward_away_loss(
     losses = {"total": 0}
 
     if towards_tokens is not None:
-        with torch.autocast(device_type="cuda"):
+        # 显式指定 autocast dtype 为 bf16: torch.autocast(device_type="cuda")
+        # 不传dtype时默认走fp16混合精度,与模型权重实际的bf16精度不一致,
+        # fp16数值范围远小于bf16(fp16 max≈65504, bf16 max≈3.39e38),
+        # 更容易在极端logits值上出现inf/NaN(见调试记录中away_loss偶发
+        # NaN的现象)。改成显式bf16,使autocast计算精度与模型权重精度
+        # 一致,不改变loss定义,只修复数值稳定性。
+        with torch.autocast(device_type="cuda", dtype=torch.bfloat16):
             logits = model(input_ids=towards_tokens).logits
             final_logits = logits[:, :-1][towards_labels_mask[:, 1:]]
             if towards_labels is None:
@@ -36,7 +42,7 @@ def compute_toward_away_loss(
         losses["total"] += toward_loss.item()
         
     if away_tokens is not None:
-        with torch.autocast(device_type="cuda"):
+        with torch.autocast(device_type="cuda", dtype=torch.bfloat16):
             logits = model(input_ids=away_tokens).logits
             final_logits = logits[:, :-1][away_labels_mask[:, 1:]]
             if away_labels is None:
@@ -207,7 +213,6 @@ def do_adversary_step(
     device="cuda",
     accelerator=None,
 ):
-    breakpoint()
     if "dpo" in coefs: # If running DPO training
         
         toward_tokens = batch["adv_tokens"].to(device)
@@ -262,8 +267,7 @@ def do_adversary_step(
             away_labels_mask = None
             away_labels = None
 
-        breakpoint()
-
+    
         # compute overall loss
         loss = compute_toward_away_loss(
             model=model,
