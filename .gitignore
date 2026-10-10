@@ -1,0 +1,36 @@
+# ---- credentials / secrets (never commit) ----
+.qianfan_api
+.env
+*.env
+*.key
+*.pem
+*token*
+*secret*
+
+# ---- python ----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- data / models / results (code repo only) ----
+*.safetensors
+*.bin
+*.arrow
+*.pkl
+*.jsonl
+data/
+models/
+generations/
+generations_train/
+epoch_*/
+final/
+wandb/
+*.log
+*.png
+
+# ---- backups / scratch ----
+*.bak
+*.bak_*
+*_bak
