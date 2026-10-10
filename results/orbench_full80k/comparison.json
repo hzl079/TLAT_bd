@@ -1,0 +1,34 @@
+{
+  "dataset": "or-bench-80k random4000 seed42",
+  "metric": "keyword-matching FPR (official OR-Bench protocol for 80k)",
+  "rows": [
+    {
+      "ckpt": "base",
+      "n": 4000,
+      "FPR_refusal": 6.78,
+      "obey%": 93.23,
+      "deg%": 0.0
+    },
+    {
+      "ckpt": "epoch_001",
+      "n": 4000,
+      "FPR_refusal": 89.3,
+      "obey%": 10.7,
+      "deg%": 0.0
+    },
+    {
+      "ckpt": "epoch_005",
+      "n": 4000,
+      "FPR_refusal": 49.95,
+      "obey%": 50.05,
+      "deg%": 0.0
+    },
+    {
+      "ckpt": "epoch_030",
+      "n": 4000,
+      "FPR_refusal": 39.88,
+      "obey%": 60.12,
+      "deg%": 0.0
+    }
+  ]
+}

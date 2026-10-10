@@ -1,0 +1,13 @@
+{
+  "original": 313,
+  "clean_external": 292,
+  "removed_exact_normalized_overlap": 21,
+  "overlap_by_split": {
+    "train": 5,
+    "val": 1,
+    "test": 3,
+    "unselected": 12
+  },
+  "base_dataset": "robust_asr_instruct_eps03_pgd8_smoke/_dataset_export.jsonl",
+  "run": "robust_asr_instruct_1b_ml_lr5e6_epst06_prefill_r3ckpt/history.json"
+}

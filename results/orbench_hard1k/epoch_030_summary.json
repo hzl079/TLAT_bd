@@ -1,0 +1,13 @@
+{
+  "model": "/home/work/hzl/LAT_sjl/ro_data_dist_378/epoch_030",
+  "n_total": 1319,
+  "n_obey": 123,
+  "obey_rate": 0.0932524639878696,
+  "n_refusal": 1196,
+  "refusal_rate": 0.9067475360121304,
+  "n_degeneration": 0,
+  "degeneration_rate": 0.0,
+  "max_new_tokens": 96,
+  "generation_mode": "greedy",
+  "metric_note": "rule-based refusal proxy, NOT official OR-Bench FPR"
+}

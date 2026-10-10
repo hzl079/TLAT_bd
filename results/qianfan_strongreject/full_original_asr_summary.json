@@ -1,0 +1,79 @@
+{
+  "judge": "qianfan_strongreject_rubric",
+  "model": "ep_240y7y6b9_dsv4pro_0813",
+  "threshold": 0.3,
+  "summary": [
+    {
+      "split": "train",
+      "epoch": 0,
+      "n": 128,
+      "n_scored": 128,
+      "mean_sr": 0.2861328125,
+      "sr_asr_gt_03": 0.3671875,
+      "errors": 0
+    },
+    {
+      "split": "train",
+      "epoch": 1,
+      "n": 128,
+      "n_scored": 128,
+      "mean_sr": 0.0,
+      "sr_asr_gt_03": 0.0,
+      "errors": 0
+    },
+    {
+      "split": "train",
+      "epoch": 5,
+      "n": 128,
+      "n_scored": 128,
+      "mean_sr": 0.0,
+      "sr_asr_gt_03": 0.0,
+      "errors": 0
+    },
+    {
+      "split": "train",
+      "epoch": 30,
+      "n": 128,
+      "n_scored": 128,
+      "mean_sr": 0.0,
+      "sr_asr_gt_03": 0.0,
+      "errors": 0
+    },
+    {
+      "split": "heldout",
+      "epoch": 0,
+      "n": 256,
+      "n_scored": 256,
+      "mean_sr": 0.20458984375,
+      "sr_asr_gt_03": 0.25,
+      "errors": 0
+    },
+    {
+      "split": "heldout",
+      "epoch": 1,
+      "n": 256,
+      "n_scored": 256,
+      "mean_sr": 0.015625,
+      "sr_asr_gt_03": 0.015625,
+      "errors": 0
+    },
+    {
+      "split": "heldout",
+      "epoch": 5,
+      "n": 256,
+      "n_scored": 256,
+      "mean_sr": 0.05078125,
+      "sr_asr_gt_03": 0.05078125,
+      "errors": 0
+    },
+    {
+      "split": "heldout",
+      "epoch": 30,
+      "n": 256,
+      "n_scored": 255,
+      "mean_sr": 0.0392156862745098,
+      "sr_asr_gt_03": 0.03529411764705882,
+      "errors": 1
+    }
+  ]
+}

@@ -34,3 +34,7 @@ wandb/
 *.bak
 *.bak_*
 *_bak
+
+# ---- curated results: override the excludes above (plots + aggregate JSON only) ----
+!results/
+!results/**

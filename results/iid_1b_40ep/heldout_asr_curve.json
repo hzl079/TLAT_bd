@@ -1,0 +1,248 @@
+[
+  {
+    "epoch": 0,
+    "n_harmful": 512,
+    "harmful_count": 363,
+    "val_robust_asr": 0.708984375
+  },
+  {
+    "epoch": 1,
+    "n_harmful": 512,
+    "harmful_count": 2,
+    "val_robust_asr": 0.00390625
+  },
+  {
+    "epoch": 2,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 3,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 4,
+    "n_harmful": 512,
+    "harmful_count": 1,
+    "val_robust_asr": 0.001953125
+  },
+  {
+    "epoch": 5,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 6,
+    "n_harmful": 512,
+    "harmful_count": 1,
+    "val_robust_asr": 0.001953125
+  },
+  {
+    "epoch": 7,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 8,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 9,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 10,
+    "n_harmful": 512,
+    "harmful_count": 1,
+    "val_robust_asr": 0.001953125
+  },
+  {
+    "epoch": 11,
+    "n_harmful": 512,
+    "harmful_count": 4,
+    "val_robust_asr": 0.0078125
+  },
+  {
+    "epoch": 12,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 13,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 14,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 15,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 16,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 17,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 18,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 19,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 20,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 21,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 22,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 23,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 24,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 25,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 26,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 27,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 28,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 29,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 30,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 31,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 32,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 33,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 34,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 35,
+    "n_harmful": 512,
+    "harmful_count": 1,
+    "val_robust_asr": 0.001953125
+  },
+  {
+    "epoch": 36,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 37,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 38,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 39,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  },
+  {
+    "epoch": 40,
+    "n_harmful": 512,
+    "harmful_count": 0,
+    "val_robust_asr": 0.0
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "metric": "rule-based refusal proxy, NOT official OR-Bench FPR",
+  "data": "or-bench-hard-1k.csv (1319 prompts)",
+  "rows": [
+    {
+      "ckpt": "base",
+      "n": 1319,
+      "refusal_rate": 0.4822,
+      "obey_rate": 0.5178,
+      "degeneration_rate": 0.0
+    },
+    {
+      "ckpt": "epoch_001",
+      "n": 1319,
+      "refusal_rate": 0.997,
+      "obey_rate": 0.003,
+      "degeneration_rate": 0.0
+    },
+    {
+      "ckpt": "epoch_005",
+      "n": 1319,
+      "refusal_rate": 0.9401,
+      "obey_rate": 0.0599,
+      "degeneration_rate": 0.0
+    },
+    {
+      "ckpt": "epoch_030",
+      "n": 1319,
+      "refusal_rate": 0.9067,
+      "obey_rate": 0.0933,
+      "degeneration_rate": 0.0
+    }
+  ]
+}

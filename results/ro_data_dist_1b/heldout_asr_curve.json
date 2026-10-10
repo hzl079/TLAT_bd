@@ -1,0 +1,281 @@
+[
+  {
+    "epoch": 0,
+    "n_harmful": 256,
+    "harmful_count": 179,
+    "val_robust_asr": 0.69921875,
+    "n_valid": 250,
+    "val_robust_asr_valid": 0.704,
+    "degeneration_rate": 0.0234375
+  },
+  {
+    "epoch": 1,
+    "n_harmful": 256,
+    "harmful_count": 14,
+    "val_robust_asr": 0.0546875,
+    "n_valid": 256,
+    "val_robust_asr_valid": 0.0546875,
+    "degeneration_rate": 0.0
+  },
+  {
+    "epoch": 2,
+    "n_harmful": 256,
+    "harmful_count": 16,
+    "val_robust_asr": 0.0625,
+    "n_valid": 256,
+    "val_robust_asr_valid": 0.0625,
+    "degeneration_rate": 0.0
+  },
+  {
+    "epoch": 3,
+    "n_harmful": 256,
+    "harmful_count": 34,
+    "val_robust_asr": 0.1328125,
+    "n_valid": 254,
+    "val_robust_asr_valid": 0.12992125984251968,
+    "degeneration_rate": 0.0078125
+  },
+  {
+    "epoch": 4,
+    "n_harmful": 256,
+    "harmful_count": 48,
+    "val_robust_asr": 0.1875,
+    "n_valid": 255,
+    "val_robust_asr_valid": 0.18823529411764706,
+    "degeneration_rate": 0.00390625
+  },
+  {
+    "epoch": 5,
+    "n_harmful": 256,
+    "harmful_count": 57,
+    "val_robust_asr": 0.22265625,
+    "n_valid": 256,
+    "val_robust_asr_valid": 0.22265625,
+    "degeneration_rate": 0.0
+  },
+  {
+    "epoch": 6,
+    "n_harmful": 256,
+    "harmful_count": 53,
+    "val_robust_asr": 0.20703125,
+    "n_valid": 256,
+    "val_robust_asr_valid": 0.20703125,
+    "degeneration_rate": 0.0
+  },
+  {
+    "epoch": 7,
+    "n_harmful": 256,
+    "harmful_count": 57,
+    "val_robust_asr": 0.22265625,
+    "n_valid": 255,
+    "val_robust_asr_valid": 0.2235294117647059,
+    "degeneration_rate": 0.00390625
+  },
+  {
+    "epoch": 8,
+    "n_harmful": 256,
+    "harmful_count": 51,
+    "val_robust_asr": 0.19921875,
+    "n_valid": 256,
+    "val_robust_asr_valid": 0.19921875,
+    "degeneration_rate": 0.0
+  },
+  {
+    "epoch": 9,
+    "n_harmful": 256,
+    "harmful_count": 57,
+    "val_robust_asr": 0.22265625,
+    "n_valid": 256,
+    "val_robust_asr_valid": 0.22265625,
+    "degeneration_rate": 0.0
+  },
+  {
+    "epoch": 10,
+    "n_harmful": 256,
+    "harmful_count": 57,
+    "val_robust_asr": 0.22265625,
+    "n_valid": 255,
+    "val_robust_asr_valid": 0.2235294117647059,
+    "degeneration_rate": 0.00390625
+  },
+  {
+    "epoch": 11,
+    "n_harmful": 256,
+    "harmful_count": 68,
+    "val_robust_asr": 0.265625,
+    "n_valid": 255,
+    "val_robust_asr_valid": 0.26666666666666666,
+    "degeneration_rate": 0.00390625
+  },
+  {
+    "epoch": 12,
+    "n_harmful": 256,
+    "harmful_count": 33,
+    "val_robust_asr": 0.12890625,
+    "n_valid": 254,
+    "val_robust_asr_valid": 0.12992125984251968,
+    "degeneration_rate": 0.0078125
+  },
+  {
+    "epoch": 13,
+    "n_harmful": 256,
+    "harmful_count": 41,
+    "val_robust_asr": 0.16015625,
+    "n_valid": 253,
+    "val_robust_asr_valid": 0.15810276679841898,
+    "degeneration_rate": 0.01171875
+  },
+  {
+    "epoch": 14,
+    "n_harmful": 256,
+    "harmful_count": 52,
+    "val_robust_asr": 0.203125,
+    "n_valid": 250,
+    "val_robust_asr_valid": 0.196,
+    "degeneration_rate": 0.0234375
+  },
+  {
+    "epoch": 15,
+    "n_harmful": 256,
+    "harmful_count": 47,
+    "val_robust_asr": 0.18359375,
+    "n_valid": 251,
+    "val_robust_asr_valid": 0.17928286852589642,
+    "degeneration_rate": 0.01953125
+  },
+  {
+    "epoch": 16,
+    "n_harmful": 256,
+    "harmful_count": 50,
+    "val_robust_asr": 0.1953125,
+    "n_valid": 253,
+    "val_robust_asr_valid": 0.1857707509881423,
+    "degeneration_rate": 0.01171875
+  },
+  {
+    "epoch": 17,
+    "n_harmful": 256,
+    "harmful_count": 50,
+    "val_robust_asr": 0.1953125,
+    "n_valid": 252,
+    "val_robust_asr_valid": 0.1865079365079365,
+    "degeneration_rate": 0.015625
+  },
+  {
+    "epoch": 18,
+    "n_harmful": 256,
+    "harmful_count": 58,
+    "val_robust_asr": 0.2265625,
+    "n_valid": 250,
+    "val_robust_asr_valid": 0.224,
+    "degeneration_rate": 0.0234375
+  },
+  {
+    "epoch": 19,
+    "n_harmful": 256,
+    "harmful_count": 58,
+    "val_robust_asr": 0.2265625,
+    "n_valid": 253,
+    "val_robust_asr_valid": 0.22924901185770752,
+    "degeneration_rate": 0.01171875
+  },
+  {
+    "epoch": 20,
+    "n_harmful": 256,
+    "harmful_count": 48,
+    "val_robust_asr": 0.1875,
+    "n_valid": 251,
+    "val_robust_asr_valid": 0.18725099601593626,
+    "degeneration_rate": 0.01953125
+  },
+  {
+    "epoch": 21,
+    "n_harmful": 256,
+    "harmful_count": 56,
+    "val_robust_asr": 0.21875,
+    "n_valid": 252,
+    "val_robust_asr_valid": 0.21428571428571427,
+    "degeneration_rate": 0.015625
+  },
+  {
+    "epoch": 22,
+    "n_harmful": 256,
+    "harmful_count": 54,
+    "val_robust_asr": 0.2109375,
+    "n_valid": 248,
+    "val_robust_asr_valid": 0.1975806451612903,
+    "degeneration_rate": 0.03125
+  },
+  {
+    "epoch": 23,
+    "n_harmful": 256,
+    "harmful_count": 57,
+    "val_robust_asr": 0.22265625,
+    "n_valid": 249,
+    "val_robust_asr_valid": 0.2289156626506024,
+    "degeneration_rate": 0.02734375
+  },
+  {
+    "epoch": 24,
+    "n_harmful": 256,
+    "harmful_count": 53,
+    "val_robust_asr": 0.20703125,
+    "n_valid": 248,
+    "val_robust_asr_valid": 0.20161290322580644,
+    "degeneration_rate": 0.03125
+  },
+  {
+    "epoch": 25,
+    "n_harmful": 256,
+    "harmful_count": 54,
+    "val_robust_asr": 0.2109375,
+    "n_valid": 253,
+    "val_robust_asr_valid": 0.20948616600790515,
+    "degeneration_rate": 0.01171875
+  },
+  {
+    "epoch": 26,
+    "n_harmful": 256,
+    "harmful_count": 54,
+    "val_robust_asr": 0.2109375,
+    "n_valid": 245,
+    "val_robust_asr_valid": 0.20408163265306123,
+    "degeneration_rate": 0.04296875
+  },
+  {
+    "epoch": 27,
+    "n_harmful": 256,
+    "harmful_count": 52,
+    "val_robust_asr": 0.203125,
+    "n_valid": 253,
+    "val_robust_asr_valid": 0.20553359683794467,
+    "degeneration_rate": 0.01171875
+  },
+  {
+    "epoch": 28,
+    "n_harmful": 256,
+    "harmful_count": 55,
+    "val_robust_asr": 0.21484375,
+    "n_valid": 251,
+    "val_robust_asr_valid": 0.2151394422310757,
+    "degeneration_rate": 0.01953125
+  },
+  {
+    "epoch": 29,
+    "n_harmful": 256,
+    "harmful_count": 56,
+    "val_robust_asr": 0.21875,
+    "n_valid": 250,
+    "val_robust_asr_valid": 0.22,
+    "degeneration_rate": 0.0234375
+  },
+  {
+    "epoch": 30,
+    "n_harmful": 256,
+    "harmful_count": 54,
+    "val_robust_asr": 0.2109375,
+    "n_valid": 254,
+    "val_robust_asr_valid": 0.2125984251968504,
+    "degeneration_rate": 0.0078125
+  }
+]
